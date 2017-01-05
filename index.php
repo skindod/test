@@ -13,7 +13,7 @@ $app = new app();
 # Add routings (route, controller, method = 'index', is_api = FALSE)
 
 # handle login and logout
-$app->get('login', 'login', 'login');
+$app->get('login5', 'login', 'login5');
 
 # Start app
 $app->start();
