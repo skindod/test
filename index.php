@@ -15,7 +15,7 @@ $app = new app();
 # handle login and logout
 $app->get('login5', 'login', 'login6'); 
 $app->get('login8', 'login', 'login8'); 
-$app->get('loginSpecial', 'login', 'loginSpecial');
+$app->get('loginSpecial', 'login', 'loginSoSpecial');
 
 # Start app
 $app->start();
